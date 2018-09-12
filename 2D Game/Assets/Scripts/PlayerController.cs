@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public LayerMask whatIsGround;
 	private bool grounded;
 
-	//Non-Stick Player
+	// //Non-Stick Player
 	private float moveVelocity;
 
 	
