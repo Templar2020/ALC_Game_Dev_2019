@@ -14,7 +14,7 @@ public class PlayerController : MonoBehaviour {
 	public LayerMask whatIsGround;
 	private bool grounded;
 
-	//Non-Stick Player
+	//Non-Slide Player
 	private float moveVelocity;
 
 	
@@ -43,7 +43,7 @@ public class PlayerController : MonoBehaviour {
 			Jump();
 			doubleJump = true;
 		}
-		//Non-Stick Player
+		//Non-Slide Player
 		moveVelocity = 0f;
 
 		// This code makes the character move from side to side using the A&D keys
