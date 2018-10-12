@@ -44,7 +44,8 @@ public class PlayerController : MonoBehaviour {
 			doubleJump = true;
 		}
 		//Non-Slide Player
-		moveVelocity = 0f;
+		moveVelocity = 0f;	
+
 
 		// This code makes the character move from side to side using the A&D keys
 		if(Input.GetKey (KeyCode.D)){
@@ -58,6 +59,12 @@ public class PlayerController : MonoBehaviour {
 
 		GetComponent<Rigidbody2D>().velocity = new Vector2(moveVelocity, GetComponent<Rigidbody2D>().velocity.y);
 
+		//Player flip
+		if (GetComponent<Rigidbody2D>().velocity.x > 0)
+			transform.localScale = new Vector3(0.1f,0.1f,1f);
+
+		else if (GetComponent<Rigidbody2D>().velocity.x < 0)
+			transform.localScale = new Vector3(-0.1f,0.1f,1f);
 
 	}
 
