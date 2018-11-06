@@ -31,6 +31,7 @@ public class Projectile : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D(Collider2D other){
+		//Destroys enemey on contact with projectile. Adds points. 
 		if(other.tag == "Enemy"){
 			Instantiate(EnemyDeath, other.transform.position, other.transform.rotation);
 			Destroy (other.gameObject);
@@ -38,13 +39,14 @@ public class Projectile : MonoBehaviour {
 		}
 		
 		
-		Instantiate(ProjectileParticle, transform.position, transform.rotation);
+		// Instantiate(ProjectileParticle, transform.position, transform.rotation);
 		Destroy (gameObject);
 	}
 
 		void OnCollisionEnter2D(Collision2D other)
 	{
-		
+		Instantiate(ProjectileParticle, transform.position, transform.rotation);
+		Destroy (gameObject);
 	}
 }
  
