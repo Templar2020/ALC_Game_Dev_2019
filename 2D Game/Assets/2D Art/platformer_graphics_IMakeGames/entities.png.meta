@@ -2,7 +2,10 @@ fileFormatVersion: 2
 guid: c0dcc279705924f00969bddfee2b5ead
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PC
+    21300000: PC_1
+    21300002: PC_2
+    21300004: PC_3
+    21300006: PC_4
   externalObjects: {}
   serializedVersion: 7
   mipmaps:
@@ -96,7 +99,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC
+      name: PC_1
       rect:
         serializedVersion: 2
         x: 9
@@ -111,6 +114,66 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 5a69b659a82b349528f2047a51badba0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 293
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe2caebfb5674a48be2d4f2c65341e3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_3
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 293
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 017a5cbae13264ffebffe304b626b294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC_4
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 293
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b98d8d48a61940c38888d3253c11abd
       vertices: []
       indices: 
       edges: []
